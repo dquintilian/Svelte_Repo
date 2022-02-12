@@ -3,8 +3,8 @@
 </script>
 
 <script>
-	import Counter from '$lib/Counter.svelte';
-	import IndexNavbar from "../components/Navbars/IndexNavbar.svelte";
+	
+	import IndexNavbar from "../Navbars/IndexNavbar.svelte";
 </script>
 
 <svelte:head>

@@ -2,7 +2,7 @@
   import { link } from "svelte-routing";
 
   // core components
-  import IndexDropdown from "../Dropdowns/IndexDropdown.svelte";
+  
 
   let navbarOpen = false;
 
@@ -52,7 +52,7 @@
       </ul>
       <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
         <li class="flex items-center">
-           <IndexDropdown />
+           <!-- <IndexDropdown /> -->
         </li>
         <li class="flex items-center">
           <a
