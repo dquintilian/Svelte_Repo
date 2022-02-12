@@ -17,6 +17,10 @@
 				<source srcset="svelte-welcome.webp" type="image/webp" />
 				<img src="svelte-welcome.png" alt="Welcome" />
 			</picture>
+
+			<h1 class="text-3xl font-bold underline">
+				Dominic Quintilian
+			  </h1>
 		</div>
 
 		to your new<br />SvelteKit app
