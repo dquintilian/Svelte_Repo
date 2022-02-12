@@ -4,6 +4,7 @@
 
 <script>
 	import Counter from '$lib/Counter.svelte';
+	import IndexNavbar from "../components/Navbars/IndexNavbar.svelte";
 </script>
 
 <svelte:head>
@@ -11,53 +12,29 @@
 </svelte:head>
 
 <section>
-	<h1>
+	
 		<div class="welcome">
 			<picture>
 				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
+				<!-- <img src="svelte-welcome.png" alt="Welcome" /> -->
 			</picture>
 
-			<h1 class="text-3xl font-bold underline">
-				Dominic Quintilian
-			  </h1>
+			<p class="text-center font-sans mt-20 p-10 text-cyan-500 text-6xl font-semibold">
+				Toy Rocket Ship 
+			</p>
 		</div>
+<div class="text-center">
+	<p class="p-5 font-sans font-medium text-2xl">
+		The website for product people
+	</p>
 
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
+	<!-- <h2>
 		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+	</h2> -->
+</div>
+	<IndexNavbar />
 </section>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+	
 </style>
